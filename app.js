@@ -19,11 +19,11 @@ window.onload = () => {
     rock.addEventListener("click", () => {
         const computerMove = moves[randomNumber];
         if (computerMove === 'rock'){
-            result.innerHTML="Computer chose rock too - it's a tie!";
+            result.innerHTML="Computer chose Rock too - it's a tie!";
         } else if (computerMove === 'paper'){
-            result.innerHTML= "Computer chose paper - you lose!";
+            result.innerHTML= "Computer chose Paper - you lose!";
         } else if (computerMove === 'scissors'){
-            result.innerHTML= 'Computer chose scissors - you win!';
+            result.innerHTML= 'Computer chose Scissors - you win!';
         }
     })
 
@@ -41,11 +41,11 @@ window.onload = () => {
     scissors.addEventListener("click", () => {
         const computerMove = moves[randomNumber];
         if (computerMove === 'scissors'){
-            result.innerHTML= "It's a tie!";
+            result.innerHTML= "Computer chose Scissors - It's a tie!";
         } else if (computerMove === 'rock'){
-            result.innerHTML= "you lose!";
+            result.innerHTML= "Computer chose Rock - you lose!";
         } else if (computerMove === 'paper'){
-            result.innerHTML= "you win!"
+            result.innerHTML= "Computer chose Paper - you win!"
         }
     })
 }   

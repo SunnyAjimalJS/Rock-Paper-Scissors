@@ -1,3 +1,12 @@
+* {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.answer p {
+  text-align: center;
+}
+
 .container {
   border: 2px solid black;
   display: -webkit-box;
@@ -19,5 +28,11 @@ div {
       -ms-flex-align: space-between;
           align-items: space-between;
   padding: 10px;
+  margin: 0 auto;
+  width: 400px;
+}
+
+body p {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

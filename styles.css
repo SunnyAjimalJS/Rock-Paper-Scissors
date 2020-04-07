@@ -1,5 +1,12 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+
+.answer p {
+  text-align: center;
 }
 
 .container {
@@ -23,11 +30,17 @@ div {
       -ms-flex-align: space-between;
           align-items: space-between;
   padding: 10px;
+  margin: 0 auto;
+  width: 400px;
+}
+
+body p {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
 
 .playerChoice{
-  width: 250px;
+  width: 400px;
   margin: 0 auto;
 }
 
